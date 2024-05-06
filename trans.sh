@@ -1734,7 +1734,7 @@ EOF
 
     # debian 网络问题
     # 注意 ubuntu 也有 /etc/debian_version
-    if false && [ "$distro" = debian ]; then
+    if [ "$distro" = debian ]; then
         # 修复 onlink 网关
         add_onlink_script_if_need
 
